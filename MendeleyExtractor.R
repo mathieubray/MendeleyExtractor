@@ -126,7 +126,7 @@ relevant.files <- relevant.documents %>%
 
 head(relevant.files)
 
-write.csv(relevant.files, "C:/Users/braym/Box Sync/Academic Work/Literature/MendeleyNetworkFiles.csv",row.names=F)
+write_csv(relevant.files, "MendeleyNetworkFiles.csv")
 
 #####################################
 
